@@ -1,0 +1,11 @@
+﻿  drawings.cpp
+e:\myfolder\c course\rrt_and_rrt_star\rrt_and_rrt_star\drawings.cpp(19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\myfolder\c course\rrt_and_rrt_star\rrt_and_rrt_star\drawings.cpp(20): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  main.cpp
+e:\myfolder\c course\rrt_and_rrt_star\rrt_and_rrt_star\main.cpp(95): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\myfolder\c course\rrt_and_rrt_star\rrt_and_rrt_star\main.cpp(96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\myfolder\c course\rrt_and_rrt_star\rrt_and_rrt_star\main.cpp(100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\myfolder\c course\rrt_and_rrt_star\rrt_and_rrt_star\main.cpp(101): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\myfolder\c course\rrt_and_rrt_star\rrt_and_rrt_star\main.cpp(114): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  RRT_AND_RRT_STAR.vcxproj -> E:\MyFolder\C course\RRT_AND_RRT_STAR\Debug\RRT_AND_RRT_STAR.exe

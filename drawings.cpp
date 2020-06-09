@@ -1,24 +1,41 @@
 #include <iostream>
+#include <vector>
 #include <gl/glut.h>
 #include <gl/GLU.h>
 #include <gl/GL.h>
 #include <math.h>
 #include "drawings.h"
+#include "window_parameters.h"
 
 using namespace std;
 
-void drawCircle(float circleX, float circleY, float r, float g, float b)
+vector < vector <float> > walls;
+
+void initDrawingParameters()
 {
-	float theta = 0;
-	glColor3f(r, g, b);
+	
+}
 
-	glBegin(GL_POLYGON);
-
-	for (int i = 0; i < 360; i++)
+void drawWalls()
+{
+	glPointSize(10);
+	for (int i = 0; i < walls.size(); i++)
 	{
-		theta = i * PI / 180.0;
-		glVertex2f(circleX + R * cos(theta), circleY + R * sin(theta));
+		glBegin(GL_POINTS);
+		glColor3f(0, 1, 1);
+		glVertex2f(walls[i][0], walls[i][1]);
+		glEnd();
 	}
+}
+
+void drawStartAndEndPositions(int posX, int posY, float r, float g, float b)
+{
+	glPointSize(15);
+
+	glBegin(GL_POINTS);
+
+	glColor3f(r, g, b);
+	glVertex2f(posX, posY);
 
 	glEnd();
 }

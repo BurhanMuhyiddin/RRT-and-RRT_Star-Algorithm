@@ -135,11 +135,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="auxiliary_functions.cpp" />
     <ClCompile Include="drawings.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="auxiliary_functions.h" />
     <ClInclude Include="drawings.h" />
+    <ClInclude Include="window_parameters.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
